@@ -233,6 +233,11 @@ img {
   outline: none;
   border: 1px solid var(--primary-green)
 }
+
+.user-cards-container {
+  display: none;
+}
+
 .new-tabs-hero {
   background: var(--primary-green);
   height: 742px;
@@ -588,6 +593,12 @@ footer {
 @media only screen and (max-width: 1210px) {
   nav {
     align-items: center;
+   
+  }
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+   
   }
   .hamburger-container {
     display: block;
@@ -624,6 +635,54 @@ footer {
     gap: 40px;
     margin-bottom: 60px;
     align-items: center;
+  }
+  .hero-text{
+    font-size: 36px;
+    text-align: center;
+  }
+  .hero-subheading {
+    font-size: 14px;
+    text-align: center;
+  }
+  .tabs-heading {
+    font-size: 36px;
+  }
+  .new-tabs-hero {
+    height: 541px;
+  }
+  .about-heading {
+    font-size: 36px;
+  }
+  .hero-wrapper {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .user-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-card-up {
+   color: #fff;
+   transform: rotate(-4deg);
+   flex-shrink: 0;
+   font-weight: 600;
+  }
+  .text-fade{
+    font-size: 12px
+  }
+  .find-tabs-hero-btn {
+    display: flex;
+    color: #fff;
+    background:#181818;
+    padding: 10px 20px;
+    
+  }
+  .card-down {
+    color: #fff;
+    transform: rotate(2deg);
+    flex-shrink: 0;
+    font-weight: 600;
   }
 }
 
