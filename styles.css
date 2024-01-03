@@ -611,8 +611,9 @@ footer {
     
   }
   .platforms-section {
-    width: 70%;
+   
     flex-wrap: wrap;
+    gap: 10px;
     
 }
   .row {
@@ -645,7 +646,8 @@ footer {
     text-align: center;
   }
   .tabs-heading {
-    font-size: 36px;
+    font-size: 30px;
+    
   }
   .new-tabs-hero {
     height: 541px;
@@ -683,6 +685,67 @@ footer {
     transform: rotate(2deg);
     flex-shrink: 0;
     font-weight: 600;
+  }
+  .user-card-brand-img {
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+  }
+  .solution-text {
+    font-size: 14px;
+  }
+
+  .about-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .about-sub-heading {
+    font-size: 36px;
+  }
+  .tweets-heading {
+    font-size: 36px;
+  }
+  .tweets-section {
+    padding: 30px;
+    text-align: center;
+  }
+  .tweet-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .view-more-btn {
+    font-size: 14px;
+  }
+  .deal-heading {
+    font-size: 36px;
+  }
+  .slider-container {
+    font-size: 18px;
+  }
+  .join-us-heading h1, .join-us-heading span{
+    font-size: 36px;
+  }
+  .join-us-heading {
+    text-align: center;
+  }
+  .join-us-btn-black {
+    font-size: 14px;
+  }
+  footer {
+    padding-top: 35px;
+  }
+  .footer-list li{
+    gap: 20px;
+    font-size: 14px;
+  }
+  footer .logo-container {
+    font-weight: 700;
+  }
+  .card-bottom-container {
+    padding: 0px 10px;
+    font-size: 14px;
   }
 }
 
